@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css?family=Libre%20Franklin');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+:root {
+    --font-family: 'Libre Franklin';
+    
+    --color-maroon : #780119;
+    --color-gold : #FFD65F;
+    --color-black : #000000;
+    --color-blue_light : #A5B9D9;
+    --color-blue_dark : #243A4E;
+    --color-blue_medium : #465D74;
+    --color-green : #628474;
+    --color-brown : #5C5957;
+    --color-grey : #B5C2C2;
+    --color-white :  #ffffff;
+  }

@@ -1,0 +1,77 @@
+.br__about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.br__about-who {
+    display: flex;
+    padding-right: 30%;
+}
+.br__about-who_img {
+    max-width: 35%;
+}
+.br__about-who_text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.br__about-who_text h1 {
+    color: var(--color-white);
+    font-size: 150%;
+    text-align: center;
+}
+.br__about-who_text p {
+    color: var(--color-grey);
+    font-size: 130%;
+    text-align: center;
+}
+
+.br__about-mission {
+    display: flex;
+    padding-left: 30%;
+}
+.br__about-mission_img {
+    max-width: 40%;
+}
+.br__about-mission_text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.br__about-mission_text h1 {
+    color: var(--color-white);
+    font-size: 150%;
+    text-align: center;
+}
+.br__about-mission_text p {
+    color: var(--color-grey);
+    font-size: 130%;
+    text-align: center;
+}
+
+.br__about-vision {
+    display: flex;
+    padding-right: 30%;
+    padding-left: 5%;
+}
+.br__about-vision_img {
+    max-width: 25%;
+}
+.br__about-vision_text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.br__about-vision_text h1 {
+    color: var(--color-white);
+    font-size: 150%;
+    text-align: center;
+}
+.br__about-vision_text p {
+    color: var(--color-grey);
+    font-size: 130%;
+    text-align: center;
+}
+
+.br__about-contact {
+    background-color: wheat;
+}

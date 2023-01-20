@@ -1,0 +1,7 @@
+.br__join {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+}

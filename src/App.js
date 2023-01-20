@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Navbar, About, Join, Contact } from './components'
+// import {  } from './containers'
+import './App.css'
+import {Routes, Route} from 'react-router-dom'
+
+const App = () => {
+    return (
+        <div className= 'bulldog_rocketry_website'>
+
+            <div className= 'gradient__navbar'>
+                <Navbar />
+            </div>
+            
+            <Routes>
+
+                <Route path='' element={
+                    <About />
+                } />
+
+                <Route path='/home' element={
+                    <About />
+                } />
+                
+
+                <Route path='/join' element={<Join />} />
+
+
+                <Route path='/contact' element={<Contact />} />
+
+
+            </Routes>
+
+            <div className='gradient__contact'>
+                <Contact />
+            </div>
+
+        </div>
+    )
 }
 
-export default App;
+export default App

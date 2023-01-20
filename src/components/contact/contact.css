@@ -1,0 +1,20 @@
+.br__contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.br__contact-links {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.br__contact-links_left {
+    padding-right: 20%;
+    justify-content: flex-start;
+}
+
+.br__contact-links_right {
+    justify-content: flex-end;
+}
