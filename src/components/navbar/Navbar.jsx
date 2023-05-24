@@ -3,7 +3,7 @@ import './navbar.css'
 
 
 import { FaInstagram, FaLinkedinIn, FaYoutube, FaFacebookF } from 'react-icons/fa'
-import logo from '../../assests/MN_Orbit.png'
+import logo from '../../assets/MN_Orbit.png'
 
 const Navbar = () => {
   return (

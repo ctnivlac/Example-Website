@@ -15,20 +15,13 @@ const App = () => {
             
             <Routes>
 
-                <Route path='' element={
-                    <About />
-                } />
+                <Route path='' element={ <About /> } />
 
-                <Route path='/home' element={
-                    <About />
-                } />
+                <Route path='/home' element={ <About /> } />
                 
-
                 <Route path='/join' element={<Join />} />
 
-
                 <Route path='/contact' element={<Contact />} />
-
 
             </Routes>
 

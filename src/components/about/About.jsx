@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
 
-import launchLogo from '../../assests/Rocket_Launch_Logo.png'
-import smokeLogo from '../../assests/rocket_smoke_logo.png'
-import minnesotaLogo from '../../assests/minnesota_launch.png'
+import launchLogo from '../../assets/Rocket_Launch_Logo.png'
+import smokeLogo from '../../assets/rocket_smoke_logo.png'
+import minnesotaLogo from '../../assets/minnesota_launch.png'
 
 const About = () => {
   return (
